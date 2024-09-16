@@ -9,7 +9,7 @@ Work in progress, so some colors and color combinations might change slightly. F
 ** Contributing
 Feel free to contribute if you want to :heart:
 
-- If you want to discuss face colors for specific modes, feel free to create an issue. This also includes 
+- If you want to discuss face colors for specific modes, feel free to create an issue. This also includes feature requests, meaning support for various modes.
 
 - Faces for your favorite package or mode missing? Feel free to contribute a PR! If you are unsure on how, you can make an issue to discuss it first. No worries :heart:
 
