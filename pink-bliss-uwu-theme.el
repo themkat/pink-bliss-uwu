@@ -61,7 +61,7 @@ It is very pink.")
  '(holiday-face ((((min-colors 256)) (:bold t :foreground "peru"))))
 
  ;; font-lock
- '(font-lock-builtin-face ((((min-colors 256)) (:foreground "orchid"))))
+ '(font-lock-builtin-face ((((min-colors 256)) (:foreground "orchid" :weight bold))))
  '(font-lock-comment-delimiter-face ((((min-colors 256)) (:foreground "coral"))))
  '(font-lock-comment-face ((((min-colors 256)) (:foreground "salmon"))))
  '(font-lock-constant-face ((((min-colors 256)) (:foreground "orchid"))))
