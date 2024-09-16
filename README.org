@@ -1,13 +1,13 @@
-* <3 pink-bliss-UwU theme for Emacs <3
+* ~ pink-bliss-UwU theme for Emacs ~
 Uses the older pink-bliss theme by Alex Schroeder as a base, and aims to be more modern. This includes theming for org-mode, helm, newer programming languages and much more. As this is a modern theme, it also will get rid of redundant 256 colors checks everywhere. Aims to be modern theme for computers in $currentYear.
 
 
 ** Contributing
-Feel free to contribute if you want to <3 
+Feel free to contribute if you want to :heart:
 
 - If you want to discuss face colors for specific modes, feel free to create an issue. This also includes 
 
-- Faces for your favorite package or mode missing? Feel free to contribute a PR! If you are unsure on how, you can make an issue to discuss it first. No worries <3
+- Faces for your favorite package or mode missing? Feel free to contribute a PR! If you are unsure on how, you can make an issue to discuss it first. No worries :heart:
 
 
 Above all else, be kind! Respect that people are different than you. No discrimination allowed (obviously).
