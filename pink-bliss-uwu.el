@@ -89,9 +89,11 @@ It is very pink.")
  ;; TODO
  
  ;; helm
- '(helm-candidate-number ((((min-colors 256)) (:background "magenta"))))
- '(helm-source-header ((t (:background "magenta"))))
- '(helm-selection ((t (:background "light pink" :foreground "purple" :weight bold))))
+ '(helm-header ((t (:background "hot pink" :foreground "seashell"))))
+ '(helm-ff-dotted-directory ((t (:background "seashell" :foreground "hot pink" :weight bold))))
+ '(helm-candidate-number ((t (:background "magenta" :foreground "seashell"))))
+ '(helm-source-header ((t (:background "magenta" :foreground "seashell"))))
+ '(helm-selection ((t (:background "pink" :foreground "purple" :weight bold))))
 
  ;; ivy (part of swiper)
  '(ivy-confirm-face ((((min-colors 256)) (:foreground "magenta"))))
@@ -182,4 +184,4 @@ To check out the list, evaluate
 
 (provide-theme 'pink-bliss-uwu)
 
-;;; pink-bliss-theme.el ends here
+;;; pink-bliss-uwu.el ends here
