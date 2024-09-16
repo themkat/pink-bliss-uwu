@@ -1,4 +1,4 @@
-;;; pink-bliss.el --- a pink color theme for Emacs
+;;; pink-bliss-uwu.el --- a pink color theme for Emacs
 
 ;; Copyright (C) 2005–2015  Alex Schroeder <alex@gnu.org>
 ;;               2024       Marie K. Ekeberg <mke@themkat.net>
@@ -26,14 +26,14 @@
 ;;; Code:
 (require 'cl)
 
-(deftheme pink-bliss
-  "A theme based on the color pink.
+(deftheme pink-bliss-uwu
+  "A theme based on the color pink uWu.
 It is very pink.")
 
 ;; TODO: org-mode source blocks looks a bit weird here...
 ;; TODO: centaur tabs tabs should be hot pink!!!
 (custom-theme-set-faces
- 'pink-bliss
+ 'pink-bliss-uwu
  '(default ((((min-colors 256)) ( :background "misty rose" :foreground "magenta4"))))
  '(button ((((min-colors 256)) (:bold t))))
  '(fringe ((((min-colors 256)) (:background "misty rose"))))
@@ -148,7 +148,7 @@ It is very pink.")
  '(centaur-tabs-background-color ((t (:background "MistyRose5" :foreground "MistyRose5")))))
 
 (custom-theme-set-variables
- 'pink-bliss
+ 'pink-bliss-uwu
  '(CUA-mode-read-only-cursor-color "dark grey")
  '(help-highlight-face 'info-xref)
  '(list-matching-lines-buffer-name-face 'bold)
@@ -180,6 +180,6 @@ It is very pink.")
 To check out the list, evaluate
 \(list-colors-display pink-bliss-foreground-colors).")
 
-(provide-theme 'pink-bliss)
+(provide-theme 'pink-bliss-uwu)
 
 ;;; pink-bliss-theme.el ends here
