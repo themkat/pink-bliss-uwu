@@ -3,7 +3,7 @@ Uses the older pink-bliss theme by Alex Schroeder as a base, and aims to be more
 
 Work in progress, so some colors and color combinations might change slightly. Feel free to help out in this process if you also would like a pink UwU theme :sparkles:
 
-#+ATTR: width: 600
+#+ATTR_ORG: :width 800
 [[./screenshot.png]]
 
 ** Contributing
