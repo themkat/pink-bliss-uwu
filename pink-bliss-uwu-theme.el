@@ -138,6 +138,12 @@ It is very pink.")
  '(magit-branch-local ((((min-colors 256)) (:foreground "PaleVioletRed2" :weight bold))))
  '(magit-branch-remote ((((min-colors 256)) (:foreground "PaleVioletRed3" :weight bold))))
 
+ ;; company-mode
+ '(company-echo               ((t (:background "pink" :foreground "magenta4" :extend t))))
+ '(company-tooltip            ((t (:background "pink" :foreground "pink" :extend t))))
+ '(company-tooltip-annotation ((t (:background "pink" :foreground "seashell" :extend t))))
+ '(company-tooltip-selection  ((t (:background "hot pink" :foreground "magenta4" :extend t))))
+ 
  ;; org-mode
  '(org-block ((t (:background "white"))))
  '(org-block-begin-line ((t (:foreground "purple" :weight bold))))
