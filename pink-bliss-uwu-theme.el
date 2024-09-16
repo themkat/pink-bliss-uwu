@@ -92,7 +92,7 @@ It is very pink.")
  '(helm-header ((t (:background "hot pink" :foreground "seashell"))))
  '(helm-ff-dotted-directory ((t (:background "seashell" :foreground "hot pink" :weight bold))))
  '(helm-candidate-number ((t (:background "magenta" :foreground "seashell"))))
- '(helm-source-header ((t (:background "magenta" :foreground "seashell"))))
+ '(helm-source-header ((t (:background "hot pink" :foreground "seashell"))))
  '(helm-selection ((t (:background "pink" :foreground "purple" :weight bold))))
 
  ;; ivy (part of swiper)
