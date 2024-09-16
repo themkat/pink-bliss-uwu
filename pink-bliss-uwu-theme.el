@@ -30,8 +30,6 @@
   "A theme based on the color pink uWu.
 It is very pink.")
 
-;; TODO: org-mode source blocks looks a bit weird here...
-;; TODO: centaur tabs tabs should be hot pink!!!
 (custom-theme-set-faces
  'pink-bliss-uwu
  '(default ((((min-colors 256)) ( :background "misty rose" :foreground "magenta4"))))
@@ -140,6 +138,16 @@ It is very pink.")
  '(magit-branch-local ((((min-colors 256)) (:foreground "PaleVioletRed2" :weight bold))))
  '(magit-branch-remote ((((min-colors 256)) (:foreground "PaleVioletRed3" :weight bold))))
 
+ ;; org-mode
+ '(org-block ((t (:background "white"))))
+ '(org-block-begin-line ((t (:foreground "purple" :weight bold))))
+ '(org-block-end-line ((t (:foreground "purple" :weight bold))))
+ '(org-table ((t (:foreground "hot pink" :background "white" :weight bold))))
+ '(org-quote ((t (:background "white"))))
+ '(org-verse ((t (:background "white"))))
+ '(org-verbatim ((t (:background "white"))))
+ '(org-link ((t (:foreground "purple" :underline t :weight bold))))
+ 
  ;; Centaur tabs
  '(centaur-tabs-selected ((((min-colors 256)) (:background "hot pink" :foreground "white"))))
  '(centaur-tabs-selected-modified ((t (:background "violet red" :foreground "white" :weight bold))))
@@ -151,6 +159,7 @@ It is very pink.")
 
 (custom-theme-set-variables
  'pink-bliss-uwu
+ '(org-fontify-quote-and-verse-blocks t)
  '(CUA-mode-read-only-cursor-color "dark grey")
  '(help-highlight-face 'info-xref)
  '(list-matching-lines-buffer-name-face 'bold)
