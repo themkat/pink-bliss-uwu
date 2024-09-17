@@ -156,6 +156,15 @@ It is very pink.")
  '(org-verse ((t (:background "white" :extend t))))
  '(org-verbatim ((t (:background "white"))))
  '(org-link ((t (:foreground "purple" :underline t :weight bold))))
+
+ ;; Markdown mode (mimic some org mode styling)
+ '(markdown-header-face-1     ((t (:foreground "violet red" :weight bold :height 1.5))))
+ '(markdown-header-face-2     ((t (:foreground "hot pink" :weight bold :height 1.2))))
+ '(markdown-header-face-3     ((t (:foreground "pale violet red" :weight bold :height 1.1))))
+ '(markdown-header-face-4     ((t (:foreground "deep pink" :weight bold :height 1.0))))
+ '(markdown-header-face-5     ((t (:foreground "light slate blue" :weight bold :height 1.0))))
+ '(markdown-header-face-6     ((t (:foreground "coral" :weight bold :height 1.0))))
+ '(markdown-code-face         ((t (:background "white" :extend t))))
  
  ;; Centaur tabs
  '(centaur-tabs-selected ((((min-colors 256)) (:background "hot pink" :foreground "white"))))
