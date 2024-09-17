@@ -121,6 +121,10 @@ It is very pink.")
 
  ;; highlights (mouse hovers, other hovers etc.)
  '(highlight               ((t (:background "pink" :foreground "magenta4"))))
+
+ ;; widgets
+ '(widget-field            ((t (:background "pink" :foreground "magenta4" :extend t))))
+ '(widget-button           ((t (:background "pink" :foreground "magenta4" :box t :weight bold))))
  
  ;; magit
  '(magit-section-highlight ((((min-colors 256)) (:background "pink"))))
