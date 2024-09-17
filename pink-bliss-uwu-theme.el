@@ -53,7 +53,7 @@ It is very pink.")
  '(isearch-lazy-highlight-face ((((min-colors 256)) (:foreground "white" :background "deep pink"))))
  
  ;; info-mode
- '(header-line ((((min-colors 256)) (:background "deep pink" :foreground "pink"))))
+ '(header-line ((((min-colors 256)) (:background "hot pink" :foreground "white"))))
 
  ;; calendar
  '(calendar-today-face ((((min-colors 256)) (:foreground "lemon chiffon"))))
@@ -147,6 +147,13 @@ It is very pink.")
  '(company-tooltip            ((t (:background "pink" :foreground "pink" :extend t))))
  '(company-tooltip-annotation ((t (:background "pink" :foreground "seashell" :extend t))))
  '(company-tooltip-selection  ((t (:background "hot pink" :foreground "magenta4" :extend t))))
+
+ ;; lsp-mode
+ ;; mostly headerline, as it doesn't play ball with the current font-lock settings
+ '(lsp-headerline-breadcrumb-path-face ((t (:foreground "seashell"))))
+ '(lsp-headerline-breadcrumb-separator-face ((t (:foreground "purple" :height 0.8))))
+ '(lsp-headerline-breadcrumb-symbols-face ((t (:foreground "seashell"))))
+ '(lsp-ui-doc-background ((t (:background "seashell"))))
  
  ;; org-mode
  ;; TODO: better colors for the nesting levels?
