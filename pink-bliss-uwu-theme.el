@@ -119,6 +119,9 @@ It is very pink.")
  '(ediff-odd-diff-B ((((min-colors 256)) (:background "seashell"))))
  '(ediff-odd-diff-C ((((min-colors 256)) (:background "seashell"))))
 
+ ;; highlights (mouse hovers, other hovers etc.)
+ '(highlight               ((t (:background "pink" :foreground "magenta4"))))
+ 
  ;; magit
  '(magit-section-highlight ((((min-colors 256)) (:background "pink"))))
  '(magit-diff-hunk-heading ((((min-colors 256)) (:foreground "black" :background "MistyRose2"))))
