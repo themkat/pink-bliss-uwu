@@ -196,13 +196,6 @@ It is very pink.")
  '(list-matching-lines-buffer-name-face 'bold)
  '(rcirc-colors pink-bliss-foreground-colors))
 
-(defun pink-bliss-save-or-open ()
-  "Save the current buffer or open a file."
-  (interactive)
-  (if (buffer-modified-p)
-      (save-buffer)
-    (call-interactively 'find-file)))
-
 (defvar pink-bliss-foreground-colors
   (let ((candidates)
 	;; (red-limit #xe000)
