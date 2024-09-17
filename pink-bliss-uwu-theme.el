@@ -69,12 +69,12 @@ It is very pink.")
  '(font-lock-function-name-face ((((min-colors 256)) (:foreground "deep pink"))))
  '(font-lock-keyword-face ((((min-colors 256)) (:foreground "purple" :weight bold))))
  '(font-lock-negation-char-face ((((min-colors 256)) (:foreground "red"))))
- '(font-lock-preprocessor-face ((((min-colors 256)) (:foreground "pink"))))
+ '(font-lock-preprocessor-face ((((min-colors 256)) (:foreground "HotPink2" :weight bold))))
  '(font-lock-string-face ((((min-colors 256)) (:foreground "pale violet red"))))
  '(font-lock-type-face ((((min-colors 256)) (:foreground "light slate blue" :weight bold))))
  '(font-lock-variable-name-face ((((min-colors 256)) (:foreground "hot pink"))))
  '(font-lock-warning-face ((((min-colors 256)) (:bold t :foreground "red"))))
-
+ 
  ;; cperl
  '(cperl-array-face ((((min-colors 256)) (:bold t :foreground "tomato"))))
  '(cperl-hash-face  ((((min-colors 256)) (:bold t :foreground "chocolate"))))
@@ -82,9 +82,6 @@ It is very pink.")
 
  ;; makefiles
  '(makefile-shell-face  ((((min-colors 256)) (:background "linen"))))
-
- ;; Rust and other languages (if needed)
- ;; TODO
  
  ;; helm
  '(helm-header ((t (:background "hot pink" :foreground "seashell"))))
