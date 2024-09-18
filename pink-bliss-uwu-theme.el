@@ -150,9 +150,9 @@ It is very pink.")
 
  ;; company-mode
  '(company-echo               ((t (:background "pink" :foreground "magenta4" :extend t))))
- '(company-tooltip            ((t (:background "pink" :foreground "pink" :extend t))))
+ '(company-tooltip            ((t (:background "pink" :foreground "magenta4" :extend t))))
  '(company-tooltip-annotation ((t (:background "pink" :foreground "seashell" :extend t))))
- '(company-tooltip-selection  ((t (:background "hot pink" :foreground "magenta4" :extend t))))
+ '(company-tooltip-selection  ((t (:background "hot pink" :foreground "magenta4" :weight bold :extend t))))
 
  ;; lsp-mode
  ;; mostly headerline, as it doesn't play ball with the current font-lock settings
