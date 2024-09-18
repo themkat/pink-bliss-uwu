@@ -122,6 +122,12 @@ It is very pink.")
  ;; widgets
  '(widget-field            ((t (:background "pink" :foreground "magenta4" :extend t))))
  '(widget-button           ((t (:background "pink" :foreground "magenta4" :box t :weight bold))))
+
+ ;; dashboard
+ ;; uses some widget themes by default, which makes it less nice with this theme.
+ ;; Overriding is sensible here? yes.
+ '(dashboard-items-face     ((t (:foreground "magenta4"))))
+ '(dashboard-no-items-face  ((t (:foreground "magenta4"))))
  
  ;; magit
  '(magit-section-highlight ((((min-colors 256)) (:background "pink"))))
