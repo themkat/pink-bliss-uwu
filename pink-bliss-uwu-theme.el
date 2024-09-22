@@ -225,6 +225,13 @@ It is very pink.")
 To check out the list, evaluate
 \(list-colors-display pink-bliss-foreground-colors).")
 
+
+;; Add self to custom theme path
+;;;###autoload
+(when load-file-name
+  (add-to-list 'custom-theme-load-path
+             (file-name-directory load-file-name)))
+
 (provide-theme 'pink-bliss-uwu)
 
 ;;; pink-bliss-uwu-theme.el ends here
