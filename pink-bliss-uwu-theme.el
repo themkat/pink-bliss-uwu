@@ -1,4 +1,4 @@
-;;; pink-bliss-uwu.el --- a pink color theme for Emacs
+;;; pink-bliss-uwu-theme.el --- a pink color theme for Emacs
 
 ;; Copyright (C) 2005–2015  Alex Schroeder <alex@gnu.org>
 ;;               2024       Marie K. Ekeberg <mke@themkat.net>
@@ -227,4 +227,4 @@ To check out the list, evaluate
 
 (provide-theme 'pink-bliss-uwu)
 
-;;; pink-bliss-uwu.el ends here
+;;; pink-bliss-uwu-theme.el ends here
