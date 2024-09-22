@@ -6,6 +6,41 @@ Work in progress, so some colors and color combinations might change slightly. F
 #+ATTR_ORG: :width 800
 [[./screenshot.png]]
 
+** Installation and usage
+*** Manual
+Clone this repository to a path you can remember on your machine. Then you can simply add it and use in your config:
+#+BEGIN_SRC emacs-lisp
+  (add-to-list 'custom-theme-load-path
+               "/path/to/theme")
+
+  ;; use it
+  (load-theme 'pink-bliss-uwu t)
+#+END_SRC
+(if you don't want to load it right away, you can omit the last line and load it later with =M-x load-theme= and select =pink-bliss-uwu=)
+
+*** use-package (local, NOT yet on MELPA)
+(like in the previous step) Clone this repository to a path you can remember on your machine. Then you can use =use-package= to load it:
+#+BEGIN_SRC emacs-lisp
+  (use-package pink-bliss-uwu-theme
+    :load-path "/path/to/theme"
+    :config
+    (load-theme 'pink-bliss-uwu t))
+#+END_SRC
+
+While it's not prettier than the manual install, it might help in keeping your configuration consistent and more readable.
+
+*** straight.el with use-package
+If you are one of the few who use straight.el, you can install it without manually cloning the repository.
+#+BEGIN_SRC emacs-lisp
+  (use-package pink-bliss-uwu-theme
+    :straight (pink-bliss-uwu-theme :type git :host github :repo "themkat/pink-bliss-uwu-theme")
+    :config
+    (load-theme 'pink-bliss-uwu t))
+#+END_SRC
+
+(if your local git install suddenly gets really anal on you in this one package: Remove the =:host= argument and put the ssh clone .git file into the =:repo= argument)
+
+
 ** Contributing
 Feel free to contribute if you want to :heart:
 
