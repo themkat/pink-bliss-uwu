@@ -7,6 +7,9 @@ Work in progress, so some colors and color combinations might change slightly. F
 [[./screenshot.png]]
 
 ** Installation and usage
+By default the theme uses the [[https://monaspace.githubnext.com/][Monaspace Radon]] font if available, so make sure to install it if you want to use it!
+
+
 *** Manual
 Clone this repository to a path you can remember on your machine. Then you can simply add it and use in your config:
 #+BEGIN_SRC emacs-lisp
@@ -40,6 +43,23 @@ If you are one of the few who use straight.el, you can install it without manual
 
 (if your local git install suddenly gets really anal on you in this one package: Remove the =:host= argument and put the ssh clone .git file into the =:repo= argument)
 
+
+** Configuration
+*Note: Due to the theme loading a font, and not reverting it, this setting will have to come BEFORE you load the theme! That means before your load-theme call.*
+
+If you have Monaspace Radon installed, but don't want to use it, you can disable it by setting =pink-bliss-uwu-use-custom-font= to =nil=. Example:
+
+#+BEGIN_SRC emacs-lisp
+  (setq pink-bliss-uwu-use-custom-font nil)
+
+  ;; or use-pacakge:
+  (use-package pink-bliss-uwu-theme
+    :load-path "/path/to/theme"
+    :config
+    (load-theme 'pink-bliss-uwu t)
+    :custom
+    (pink-bliss-uwu-use-custom-font nil))
+#+END_SRC
 
 ** Contributing
 Feel free to contribute if you want to :heart:

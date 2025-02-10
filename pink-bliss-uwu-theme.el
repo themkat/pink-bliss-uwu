@@ -226,6 +226,21 @@ To check out the list, evaluate
 \(list-colors-display pink-bliss-foreground-colors).")
 
 
+;; Give the users the option to turn off the default font
+(defcustom pink-bliss-uwu-use-custom-font nil
+  "Whether to use Monaspace Radon font or not if it is installed."
+  :group 'pink-bliss-uwu
+  :type 'boolean)
+
+;; Use Monaspace Radon if available and not turned off
+;; https://monaspace.githubnext.com/
+;; (install pls!)
+(let ((desired-font "-*-Monaspace Radon-regular-normal-normal-*-12-*-*-*-p-0-iso10646-1"))
+  (unless (or (null (find-font (font-spec :name desired-font)))
+              (not pink-bliss-uwu-use-custom-font))
+    (set-frame-font desired-font nil t)))
+
+
 ;; Add self to custom theme path
 ;;;###autoload
 (when load-file-name
