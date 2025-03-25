@@ -24,7 +24,6 @@
 ;; pink-gnu.xpm: http://www.emacswiki.org/emacs/download/pink-gnu.xpm
 
 ;;; Code:
-(require 'cl)
 
 (deftheme pink-bliss-uwu
   "A theme based on the color pink uWu.
@@ -208,17 +207,17 @@ It is very pink.")
 
 (defvar pink-bliss-foreground-colors
   (let ((candidates)
-	;; (red-limit #xe000)
-	(green-limit #xa000)
-	(both-limit #xa000))
+	    ;; (red-limit #xe000)
+	    (green-limit #xa000)
+	    (both-limit #xa000))
     (dolist (item color-name-rgb-alist)
-      (cl-destructuring-bind (color red green blue) item
-	(when (and (not (color-gray-p color))
-		   ;; (< red red-limit)
-		   (< green green-limit)
-		   (not (and (> red both-limit)
-			     (> green both-limit))))
-	  (setq candidates (cons color candidates)))))
+      (pcase-let ((`(,color ,red ,green ,blue) item))
+	    (when (and (not (color-gray-p color))
+		           ;; (< red red-limit)
+		           (< green green-limit)
+		           (not (and (> red both-limit)
+			                 (> green both-limit))))
+	      (setq candidates (cons color candidates)))))
     candidates)
   "Colors to use for nicks in rcirc, for example.
 
