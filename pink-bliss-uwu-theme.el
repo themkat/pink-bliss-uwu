@@ -53,6 +53,8 @@ It is very pink.")
  '(tooltip ((((min-colors 256)) (:background "lemon chiffon"
 		                                     :foreground "violet red"))))
  '(region ((((min-colors 256)) (:background "seashell"))))
+ '(hl-line ((t (:background "pink"))))
+ '(link ((t (:foreground "purple"))))
 
  ;; isearch
  '(isearch ((((min-colors 256)) (:foreground "white" :background "hot pink"))))
