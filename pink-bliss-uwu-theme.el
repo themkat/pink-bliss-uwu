@@ -204,25 +204,25 @@ It is very pink.")
  '(centaur-tabs-modified-marker-unselected    ((t (:foreground "white" :background "pink"))))
  
  ;; Elpaca
- '(elpaca-ui-marked-delete     ((t (:foreground "black" :background "dark orchid" :weight bold
-                                                :box (:line-width (1 . 1)  :color "dark magenta" :style released-button )))))
+ '(elpaca-ui-marked-delete     ((t (:foreground "black" :background "purple" :weight bold
+                                                :box (:line-width (1 . 1)  :color "magneta4" :style released-button )))))
  '(elpaca-ui-marked-install    ((t (:foreground "light sea green" :background "pale turquoise" :weight bold))))
- '(elpaca-ui-marked-merge      ((t (:foreground "seashell" :background "VioletRed2" :weight bold))))
+ '(elpaca-ui-marked-merge      ((t (:foreground "seashell" :background "hot pink" :weight bold))))
  '(elpaca-ui-marked-pull       ((t (:foreground "black" :background "magenta" :weight bold))))
  '(elpaca-ui-marked-rebuild    ((t (:foreground "magenta4" :background "chartreuse"))))
  '(elpaca-ui-marked-fetch      ((t (:foreground "magenta4" :background "gold" :weight bold))))
  '(elpaca-ui-conflicting       ((t (:foreground "black" :background "orchid"
-                                                :box (:line-width (2 . 2) :color "dark magenta" :style released-button )))))
- '(elpaca-failed               ((t (:foreground "firebrick1"
+                                                :box (:line-width (2 . 2) :color "magenta4" :style released-button )))))
+ '(elpaca-failed               ((t (:foreground "red"
                                                 :box (:line-width (1 . 1) :color "violet red" :style flat-button )))))
  '(elpaca-blocked              ((t (:foreground "black" :background "light pink" :weight bold))))
  '(elpaca-finished             ((t (:foreground "lime green":weight bold))))
  '(elpaca-busy                 ((t (:foreground "magenta4" :background "gold" :weight bold))))
  '(elpaca-log-highlight        ((t (:foreground "black" :background "pink"))))
  '(elpaca-log-error            ((t (:inherit 'elpaca-failed))))
- '(elpaca-info-section         ((t (:background "plum" :weight bold))))
- '(elpaca-log-info             ((t (:foreground "black" :background "lavender"))))
- '(elpaca-info-package         ((t (:background "peach puff" :height 2.0
+ '(elpaca-info-section         ((t (:background "pink" :weight bold))))
+ '(elpaca-log-info             ((t (:foreground "black" :background "seashell"))))
+ '(elpaca-info-package         ((t (:background "moccasin" :height 2.0
                                                 :box ( :line-width (2 . 2) :color "misty rose" :style released-button))))))
 
 (custom-theme-set-variables
