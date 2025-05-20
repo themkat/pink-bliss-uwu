@@ -206,7 +206,7 @@ It is very pink.")
  ;; Elpaca
  '(elpaca-ui-marked-delete     ((t (:foreground "black" :background "purple" :weight bold
                                                 :box (:line-width (1 . 1)  :color "magneta4" :style released-button )))))
- '(elpaca-ui-marked-install    ((t (:foreground "light sea green" :background "pale turquoise" :weight bold))))
+ '(elpaca-ui-marked-install    ((t (:foreground "light slate blue" :background "pale turquoise" :weight bold))))
  '(elpaca-ui-marked-merge      ((t (:foreground "seashell" :background "hot pink" :weight bold))))
  '(elpaca-ui-marked-pull       ((t (:foreground "black" :background "magenta" :weight bold))))
  '(elpaca-ui-marked-rebuild    ((t (:foreground "magenta4" :background "chartreuse"))))
