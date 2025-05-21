@@ -1,0 +1,19 @@
+name: Run setup through Emacs and see if it gives errors
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Emacs
+        uses: purcell/setup-emacs@master
+        with:
+          version: 29.4
+      - name: Lint
+        run: |
+          emacs -q -batch -l .github/scripts/lint.el
