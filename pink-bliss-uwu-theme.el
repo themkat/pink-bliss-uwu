@@ -90,7 +90,7 @@ It is very pink.")
  '(makefile-shell-face    ((t (:background "linen"))))
  
   ;; helm
- '(helm-header                 ((t (:foreground "hot pink" :background "hot pink")))
+ '(helm-header                 ((t (:foreground "hot pink" :background "hot pink"))))
  '(helm-ff-dotted-directory    ((t (:foreground "hot pink" :background "seashell" :weight bold))))
  '(helm-candidate-number       ((t (:foreground "seashell" :background "magenta"))))
  '(helm-source-header          ((t (:foreground "seashell" :background "hot pink"))))
