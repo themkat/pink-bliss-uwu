@@ -262,7 +262,7 @@ To check out the list, evaluate
 ;; Use Monaspace Radon if available and not turned off
 ;; https://monaspace.githubnext.com/
 ;; (install pls!)
-(let ((desired-font "-*-Monaspace Radon-regular-normal-normal-*-12-*-*-*-p-0-iso10646-1"))
+(let ((desired-font "-*-Monaspace Radon-regular-normal-normal-*-*-*-*-*-*-iso10646-1"))
   (unless (or (null (find-font (font-spec :name desired-font)))
               (not pink-bliss-uwu-use-custom-font))
     (set-frame-font desired-font nil t)))
